@@ -1,8 +1,13 @@
-export default function Main() {
+export default function Main({ number, content }) {
   return (
-    <main>
-      <h2>My Main Content!</h2>
-      <p>More Main content</p>
+    <main className="main">
+      <h2>{number}</h2>
+      <p>{content}</p>
     </main>
   );
 }
+
+Main.defaultProps = {
+  number: "x",
+  content: "Murray",
+};
