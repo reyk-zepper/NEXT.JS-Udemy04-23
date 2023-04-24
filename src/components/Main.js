@@ -9,5 +9,5 @@ export default function Main({ number, content, card }) {
 
 Main.defaultProps = {
   number: "x",
-  content: "Murray",
+  content: "ATHOS",
 };
