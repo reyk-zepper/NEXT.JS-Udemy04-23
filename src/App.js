@@ -1,5 +1,12 @@
 import React from "react";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 export default function App() {
-  return <h1>Reykajacylathosimba</h1>;
+  return (
+    <>
+      <Header />
+      <Main />
+    </>
+  );
 }
